@@ -1,0 +1,45 @@
+.footer {
+  background-image: linear-gradient(to right top, #051937, #00253c, #002f32, #033522, #2e3916);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color:aliceblue
+
+}
+
+.company h3 {
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.social a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color:wheat
+}
+
+.social a:hover {
+  color: #007bff;
+}
+
+.social svg {
+  font-size: 1.5rem;
+}
